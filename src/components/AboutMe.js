@@ -13,7 +13,8 @@ const AboutMe = ({className}) => {
       <p>
           More specifically, I&#39;m experienced with API development, mobile 
           app development, and accessible front-end development. I&#39;m eager
-           to grow by facing new challenges in novel problem spaces.</p>
+           to grow by facing new challenges in novel problem spaces,
+           and I strive to make a positive impact.</p>
     </div>
   );
 };
