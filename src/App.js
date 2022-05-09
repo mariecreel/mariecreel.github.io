@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
-import {StyledHeader} from './components/Header'
+import {StyledHeader} from './components/Header';
+import {StyledAboutMe} from './components/AboutMe';
 // must pass class name and attach to html
 // for styled component styles to apply
 // see https://styled-components.com/docs/basics#styling-any-component
@@ -13,6 +14,7 @@ function App({className}) {
   return (
     <div className={className}>
       <StyledHeader />
+      <StyledAboutMe />
     </div>
   );
 }
@@ -23,7 +25,10 @@ App.propTypes = {
 
 export const StyledApp = styled(App)`
   text-align: center;
-  padding: 10px;
-  background: white;
-  min-height: 100%;
+  flex-direction: column;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  font-family: Helvetica, sans-serif;
 `;

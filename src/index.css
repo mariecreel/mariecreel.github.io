@@ -10,6 +10,7 @@ but all components will be styled using styled-components
     -webkit-box-sizing: border-box;
 }
 html {
+    background: black;
     height: 100%;
 }
 body {
