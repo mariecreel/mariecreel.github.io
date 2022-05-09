@@ -10,6 +10,10 @@ const AboutMe = ({className}) => {
          applications,
         and I love solving problems across the stack.
       </p>
+      <p>
+          More specifically, I&#39;m experienced with API development, mobile 
+          app development, and accessible front-end development. I&#39;m eager
+           to grow by facing new challenges in novel problem spaces.</p>
     </div>
   );
 };
@@ -17,6 +21,9 @@ const AboutMe = ({className}) => {
 export const StyledAboutMe = styled(AboutMe)`
     background: #f8f32b;
     color: black;
-    padding: 50px;
+    padding: 30px 50px;
     font-size: 1.5em;
-`
+    & p {
+        margin: 20px 0px;
+    }
+`;
