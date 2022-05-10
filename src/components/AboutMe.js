@@ -11,11 +11,16 @@ const AboutMe = ({className}) => {
         and I love solving problems across the stack.
       </p>
       <p>
-          More specifically, I&#39;m experienced with API development, mobile 
-          app development, and accessible front-end development.
+        I lean towards accessible front-end development
+        and mobile app development, but I&#39;ve also built
+        RESTful APIs, web scrapers, and other back-end software.
       </p>
     </div>
   );
+};
+
+AboutMe.propTypes = {
+  className: PropTypes.string.isRequired,
 };
 
 export const StyledAboutMe = styled(AboutMe)`
