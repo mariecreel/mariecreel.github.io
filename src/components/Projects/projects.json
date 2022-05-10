@@ -10,14 +10,11 @@
         {
             "title": "Leetdex",
             "description": "Search for Pokémon information in the National PokéDex via command line interface (like the 1337357 of H4X0R5). Built with Node, powered by <a href='https://pokedevs.gitbook.io/pokedex/'>the PokéDex API</a>.",
-            "linkText": "Scry the Leetdex",
             "repository": "https://github.com/mariecreel/leetdex"
         },
         {
             "title": "Lolibrary Search Filter API",
             "description": "RESTful API serving filter data for <a href='https://lolibrary.org'>Lolibrary</a>'s search API. Built with Node, Express, and Sequelize. Hosted on Heroku & powered by Heroku PostgreSQL.",
-            "link": "https://lovelace-db-api.herokuapp.com/",
-            "linkText": "GET /filter data",
             "repository": "https://github.com/mariecreel/lolibrary-api-proxy"
         },
         {
