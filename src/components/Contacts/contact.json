@@ -1,0 +1,20 @@
+{
+    "contacts" : [
+        {
+            "linkText": "Github",
+            "link": "https://github.com/mariecreel"
+        },
+        {
+            "linkText": "LinkedIn",
+            "link": "https://linkedin.com/in/m-creel"
+        },
+        {
+            "linkText": "dev.to",
+            "link": "https://dev.to/mcreel"
+        },
+        {
+            "linkText": "Email",
+            "link": "mailto:marie.n.creel@gmail.com"
+        }
+    ]
+}

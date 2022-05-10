@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import {StyledHeader} from './components/Header';
 import {StyledAboutMe} from './components/AboutMe';
 import {StyledProjects} from './components/Projects';
+import {StyledContacts} from './components/Contacts';
 // must pass class name and attach to html
 // for styled component styles to apply
 // see https://styled-components.com/docs/basics#styling-any-component
@@ -17,6 +18,7 @@ function App({className}) {
       <StyledHeader />
       <StyledAboutMe />
       <StyledProjects />
+      <StyledContacts />
     </div>
   );
 }

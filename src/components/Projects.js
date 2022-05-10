@@ -4,6 +4,11 @@ import PropTypes from 'prop-types';
 import {StyledProjectCard} from './Projects/ProjectCard';
 import projects from './Projects/projects.json';
 
+/**
+ * @param {object} props
+ * @param {string} props.className - class name for styled components
+ * @return {jsx}
+ */
 const Projects = ({className}) => {
   return (
     <div className={className}>
