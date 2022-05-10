@@ -18,3 +18,11 @@ This app is setup to style components using the styled-components library. You c
 
 # Webpack and Babel
 Webpack bundles the various assets used in your app and creates builds for distribution. Babel compiles modern JavaScript (ES6) in a way that newer JavaScript features (like ES6 imports) can be used in older browsers. This is a simplification of their benefits, in reality they are both powerful tools for managing the way your application is distributed and maintained.
+
+# palette
+
+#2b2d42
+#8d99ae
+#f8f32b
+#ffffff
+#000000
