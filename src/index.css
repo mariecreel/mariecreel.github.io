@@ -13,6 +13,16 @@ html {
     background: black;
     height: 100%;
 }
+a {
+    color: #af1bf3;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:focus-visible {
+    outline: 3px solid;
+}
 body {
     height: 100%;
 }
