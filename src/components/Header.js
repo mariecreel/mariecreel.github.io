@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import PropTypes from 'prop-types';
 /**
  * @param {object} props
- * @returns {JSX}
+ * @return {JSX}
  */
 const Header = ({className}) => {
   return (
@@ -23,21 +23,21 @@ Header.propTypes = {
 };
 
 export const StyledHeader = styled(Header)`
-  height: 50%;
+  height: 70%;
+  min-height: fit-content;
   width: 100%;
   min-width: 50%;
-  color: white;
+  color: #fff;
   font-family: Helvetica;
-  font-size: 2em;
+  font-size: 1.5em;
   background: #2b2d42;
   display: flex;
   justify-content: center;
   align-items: center;
   & h1 {
     font-weight: 400;
-    margin: 0px 20px;
+    margin: 20px;
     min-width: 70%;
-    margin-top: -20px;
     & strong {
       color: #f8f32b;
     }
