@@ -1,0 +1,41 @@
+{
+    "projects" : [
+        {
+            "title": "🍸 Cocktail Search",
+            "description": "Search for Cocktails by name. Built with React, powered by <a href='https://thecocktaildb.com'>TheCocktailDb</a>.",
+            "link": "https://mariecreel.github.io/cocktail-search/",
+            "repository": "https://github.com/mariecreel/cocktail-search"
+        },
+        {
+            "title": "Leetdex",
+            "description": "Search for Pokémon information in the National PokéDex via command line interface (like the 1337357 of H4X0R5). Built with Node, powered by <a href='https://pokedevs.gitbook.io/pokedex/'>the PokéDex API</a>.",
+            "repository": "https://github.com/mariecreel/leetdex"
+        },
+        {
+            "title": "Lolibrary Search Filter API",
+            "description": "RESTful API serving filter data for <a href='https://lolibrary.org'>Lolibrary</a>'s search API. Built with Node, Express, and Sequelize. Hosted on Heroku & powered by Heroku PostgreSQL.",
+            "link": "https://lovelace-db-api.herokuapp.com/",
+            "repository": "https://github.com/mariecreel/lolibrary-api-proxy"
+        },
+        {
+            "title": "Lolibrary Filter Scraper",
+            "description": "Web scraper that captures filter data from Lolibrary.org public frontends and imports to database used by my implementaton of the Lolibrary Search Filter API. Built with Node and Puppeteer.",
+            "repository": "https://github.com/mariecreel/lolibrary-scraper"
+        },
+        {
+            "title": "Lolibrary Search Mobile App (DRAFT)",
+            "description": "Native mobile application that allows users to search Lolibrary.org's database of Lolita fashion items. Currently a work in progress. Built with React Native and Expo.",
+            "repository": "https://github.com/mariecreel/lolibrary-mobile"
+        },
+        {
+            "title": "TweeTeX Programming Language",
+            "description": "TeX-like syntactical sugar for the Twee3 programming language, made to author interactive hypertext literature. Built with Python as part of my undergraduate thesis in Computer Science and Writing at Marlboro College.",
+            "repository": "https://github.com/mariecreel/TweeTeX"
+        },
+        {
+            "title": "Automatic Rendering of Augmented Events in Immersive Concerts",
+            "description": "Analyze real-time audio input using time-series analysis to automate video jockey software QLab. Built with Python and PyQT, completed during <a href='https://www.sas.rochester.edu/dsc/undergraduate/reu.html'>NSF REU at University of Rochester.</a>",
+            "repository": "https://github.com/mariecreel/automatic_music_events"
+        }
+    ]
+}
